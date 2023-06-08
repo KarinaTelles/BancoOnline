@@ -37,6 +37,7 @@ public class BancoOnline {
                 imprimeMenu();
             case 5:
                 System.out.println("Saindo da aplicação");
+                scanner.close();
                 break;
             default:
                 System.out.println("Opção inválida");
